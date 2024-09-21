@@ -1,0 +1,99 @@
+body {
+    font-family: 'Rubik';
+    direction: rtl;
+    text-align: right;
+    background-image: url('E:/Programing/Web/FIB Website/images/BG.png'); /* Replace with the path to your image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Make sure the background stays fixed during scroll */
+}
+
+.bg-green {
+    background-color: #326549; /* Dark green color */
+}
+
+.navbar-nav .nav-link {
+    padding-right: 1rem;
+    color: white !important;
+    font-size: 1.1rem; /* Adjust font size */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #fff; /* Keep text color white on hover */
+    background-color: #004d00; /* Darker green on hover */
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #326549; /* Green background for dropdown */
+    text-align: right
+}
+
+.navbar-nav .dropdown-item {
+    color: white;
+}
+
+.navbar-nav .dropdown-item:hover,
+.navbar-nav .dropdown-item:focus {
+    color: #fff; /* Keep text color white on hover */
+    background-color: #004d00; /* Darker green on hover */
+}
+
+.logo-container {
+    background-color: #326549; /* White background for logo */
+    padding: 5px; /* Optional padding to adjust the logo container */
+}
+
+.service-box {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.service-box:hover {
+    background-color: #326549;
+    color: #ffffff;
+    transform: translateY(-5px);
+}
+
+.service-box img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+/* FAQ Link Animation */
+.faq-link {
+    font-size: 1.8rem;
+    color: #326549;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.faq-link:hover {
+    color: rgb(12, 206, 83); /* Change text color on hover */
+    transform: scale(1.1); /* Slightly enlarge the link on hover */
+}
+
+.faq-link img {
+    transition: transform 0.3s;
+}
+
+.faq-link:hover img {
+    transform: rotate(15deg); /* Rotate the image on hover */
+}
+
+footer {
+    background-color: #326549; /* Dark green color */
+    color: rgb(255, 255, 255); /* Footer text color */
+    padding: 20px 0;
+    text-align: center;
+}
