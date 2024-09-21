@@ -1,1 +1,2 @@
 # FIB-Website
+During my tenure at Faisal Islamic Bank of Egypt, I developed a basic frontend website as part of an internship training program. This opportunity allowed me to undergo comprehensive IT sector training, acquire valuable experience, and cultivate a diverse skill set from various department teams, encompassing Database Administration, Website & Online Banking, Mobile App Development, Network Security, and ATM Support. Each domain provided me with practical experience and deepened my comprehension of the IT sector.
